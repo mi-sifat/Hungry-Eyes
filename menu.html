@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hungry Eyes Food Corner Menu – Pizza, Burger, Shawarma, Fried Chicken, Set Menu, Soup, Drinks. Best prices in Mirpur, Dhaka." />
+  <meta name="keywords" content="Hungry Eyes menu, pizza price, burger Mirpur, shawarma Dhaka, fried chicken, set menu" />
+  <meta name="author" content="Hungry Eyes Food Corner" />
+  <title>Menu | Hungry Eyes Food Corner</title>
+  <link rel="icon" type="image/jpeg" href="Img/LOGO.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Img/LOGO.jpg" alt="Hungry Eyes Logo" class="logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+        <li><a href="about.html" class="nav-link" id="nav-about">About</a></li>
+        <li><a href="menu.html" class="nav-link active" id="nav-menu">Menu</a></li>
+        <li><a href="branches.html" class="nav-link" id="nav-branches">Branches</a></li>
+        <li><a href="gallery.html" class="nav-link" id="nav-gallery">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+      <a href="tel:01912341230" class="nav-cta" id="nav-order-btn">
+        <span>📞 Order Now</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <div class="page-hero">
+    <div class="page-hero-bg">
+      <div class="hero-bg-orb orb-1"></div>
+      <div class="hero-bg-orb orb-2"></div>
+      <div class="hero-bg-grid"></div>
+    </div>
+    <div class="page-hero-content">
+      <div class="section-tag">What We Serve</div>
+      <h1 class="page-hero-title">Our <span class="highlight">Menu</span></h1>
+      <p class="page-hero-sub">Fresh, delicious and 100% Halal — Begin with Bismillah</p>
+    </div>
+  </div>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section class="menu-section" id="menu" style="padding-top: 72px;">
+    <div class="container">
+
+      <!-- Menu Filter Tabs -->
+      <div class="menu-tabs" id="menuTabs">
+        <button class="menu-tab active" data-category="all" id="tab-all">All Items</button>
+        <button class="menu-tab" data-category="pizza" id="tab-pizza">🍕 Pizza</button>
+        <button class="menu-tab" data-category="burger" id="tab-burger">🍔 Burger</button>
+        <button class="menu-tab" data-category="chicken" id="tab-chicken">🍗 Chicken</button>
+        <button class="menu-tab" data-category="snacks" id="tab-snacks">🌯 Snacks</button>
+        <button class="menu-tab" data-category="setmenu" id="tab-setmenu">🍱 Set Menu</button>
+        <button class="menu-tab" data-category="soup" id="tab-soup">🍲 Soup</button>
+        <button class="menu-tab" data-category="drinks" id="tab-drinks">☕ Drinks</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- PIZZA ITEMS -->
+        <div class="menu-card" data-category="pizza" id="item-chicken-bbq-pizza">
+          <div class="menu-card-img" style="background: linear-gradient(135deg, #8B1A1A 0%, #c0392b 50%, #e67e22 100%);">
+            <img src="Img/pizza_bbq.png" alt="Chicken BBQ Pizza" loading="lazy" />
+            <div class="menu-card-badge">🍕 Pizza</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken BBQ Pizza</h3>
+            <p class="menu-item-desc">Chicken, Mozzarella Cheese, Capsicum, Black Olive, Special Tomato Sauce, BBQ Sauce</p>
+            <div class="menu-price-grid">
+              <div class="price-variant"><span class="price-size">12 inch</span><span class="price-tag">৳380</span></div>
+              <div class="price-variant"><span class="price-size">9 inch</span><span class="price-tag">৳280</span></div>
+              <div class="price-variant"><span class="price-size">Small</span><span class="price-tag">৳170</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="pizza" id="item-chicken-mexican-pizza">
+          <div class="menu-card-img pizza-mexican"><div class="img-placeholder-icon">🍕</div><div class="menu-card-badge">🍕 Pizza</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Mexican Pizza</h3>
+            <p class="menu-item-desc">Chicken, Mushroom, Mozzarella Cheese, Special Tomato Sauce, Capsicum, Black Olive, Green Chilli</p>
+            <div class="menu-price-grid">
+              <div class="price-variant"><span class="price-size">12 inch</span><span class="price-tag">৳360</span></div>
+              <div class="price-variant"><span class="price-size">9 inch</span><span class="price-tag">৳270</span></div>
+              <div class="price-variant"><span class="price-size">Small</span><span class="price-tag">৳160</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="pizza" id="item-chicken-naga-pizza">
+          <div class="menu-card-img pizza-naga"><div class="img-placeholder-icon">🔥</div><div class="menu-card-badge spicy">🌶️ Spicy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Naga Pizza</h3>
+            <p class="menu-item-desc">Chicken, Mozzarella Cheese, Naga Chilli, Special Tomato Sauce, Cheese, Onion, Black Olive, Capsicum</p>
+            <div class="menu-price-grid">
+              <div class="price-variant"><span class="price-size">12 inch</span><span class="price-tag">৳370</span></div>
+              <div class="price-variant"><span class="price-size">9 inch</span><span class="price-tag">৳280</span></div>
+              <div class="price-variant"><span class="price-size">Small</span><span class="price-tag">৳170</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="pizza" id="item-chicken-sausage-pizza">
+          <div class="menu-card-img pizza-sausage"><div class="img-placeholder-icon">🍕</div><div class="menu-card-badge">🍕 Pizza</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Sausage Pizza</h3>
+            <p class="menu-item-desc">Chicken, Special Sauce, Mozzarella Cheese, Special Tomato Sauce, Capsicum, Chicken Sausage, Black Olive</p>
+            <div class="menu-price-grid">
+              <div class="price-variant"><span class="price-size">12 inch</span><span class="price-tag">৳360</span></div>
+              <div class="price-variant"><span class="price-size">9 inch</span><span class="price-tag">৳270</span></div>
+              <div class="price-variant"><span class="price-size">Small</span><span class="price-tag">৳160</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="pizza" id="item-beef-pizza">
+          <div class="menu-card-img pizza-beef"><div class="img-placeholder-icon">🥩</div><div class="menu-card-badge premium">⭐ Premium</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Beef Pizza</h3>
+            <p class="menu-item-desc">Beef, Mozzarella Cheese, Special Tomato Sauce, Green Chilli, Capsicum, Tomato, Black Olive, Mushroom, Sauces</p>
+            <div class="menu-price-grid">
+              <div class="price-variant"><span class="price-size">12 inch</span><span class="price-tag">৳600</span></div>
+              <div class="price-variant"><span class="price-size">9 inch</span><span class="price-tag">৳400</span></div>
+              <div class="price-variant"><span class="price-size">Small</span><span class="price-tag">৳220</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BURGER ITEMS -->
+        <div class="menu-card" data-category="burger" id="item-burger-regular">
+          <div class="menu-card-img burger-regular">
+            <img src="Img/burger.png" alt="Burger" loading="lazy" />
+            <div class="menu-card-badge">🍔 Burger</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Regular</h3>
+            <p class="menu-item-desc">Juicy chicken patty in a classic soft bun</p>
+            <div class="menu-price-single"><span class="price-tag large">৳100</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="burger" id="item-burger-spicy">
+          <div class="menu-card-img burger-spicy"><div class="img-placeholder-icon">🌶️</div><div class="menu-card-badge spicy">🌶️ Spicy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Spicy</h3>
+            <p class="menu-item-desc">Spicy chicken patty with jalapeño kick in a soft bun</p>
+            <div class="menu-price-single"><span class="price-tag large">৳100</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="burger" id="item-burger-regular-cheese">
+          <div class="menu-card-img burger-cheese"><div class="img-placeholder-icon">🧀</div><div class="menu-card-badge">🧀 Cheese</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Regular Cheese</h3>
+            <p class="menu-item-desc">Classic chicken burger topped with melted cheese</p>
+            <div class="menu-price-single"><span class="price-tag large">৳110</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="burger" id="item-burger-spicy-cheese">
+          <div class="menu-card-img burger-spicy-cheese"><div class="img-placeholder-icon">🔥</div><div class="menu-card-badge spicy">🌶️ Spicy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Spicy Cheese</h3>
+            <p class="menu-item-desc">Spicy chicken with melted cheese — bold and delicious</p>
+            <div class="menu-price-single"><span class="price-tag large">৳110</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="burger" id="item-burger-crispy">
+          <div class="menu-card-img burger-crispy"><div class="img-placeholder-icon">🍔</div><div class="menu-card-badge">Crispy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Crispy</h3>
+            <p class="menu-item-desc">Golden crispy fried chicken in a fresh bun</p>
+            <div class="menu-price-single"><span class="price-tag large">৳110</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="burger" id="item-burger-crispy-cheese">
+          <div class="menu-card-img burger-crispy-cheese"><div class="img-placeholder-icon">⭐</div><div class="menu-card-badge premium">⭐ Best Seller</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Burger Crispy Cheese</h3>
+            <p class="menu-item-desc">Crispy chicken + melted cheese — our fan favourite</p>
+            <div class="menu-price-single"><span class="price-tag large">৳120</span></div>
+          </div>
+        </div>
+
+        <!-- CHICKEN ITEMS -->
+        <div class="menu-card" data-category="chicken" id="item-bbq-naga-chicken">
+          <div class="menu-card-img naga-chicken">
+            <img src="Img/fried_chicken.png" alt="BBQ Naga Chicken" loading="lazy" />
+            <div class="menu-card-badge spicy">🔥 Naga</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">BBQ Naga Chicken (6 Pcs)</h3>
+            <p class="menu-item-desc">6 pieces of fiery BBQ Naga flavored crispy chicken</p>
+            <div class="menu-price-single"><span class="price-tag large">৳200</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="chicken" id="item-crispy-fried-chicken">
+          <div class="menu-card-img crispy-chicken"><div class="img-placeholder-icon">🍗</div><div class="menu-card-badge">🍗 Fried</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Crispy Fried Chicken</h3>
+            <p class="menu-item-desc">Golden crispy fried chicken — perfectly seasoned</p>
+            <div class="menu-price-grid two-col">
+              <div class="price-variant"><span class="price-size">Breast Piece</span><span class="price-tag">৳100</span></div>
+              <div class="price-variant"><span class="price-size">Others Piece</span><span class="price-tag">৳90</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="chicken" id="item-chicken-chowmein">
+          <div class="menu-card-img chowmein">
+            <img src="Img/chowmein.png" alt="Chicken Chowmein" loading="lazy" />
+            <div class="menu-card-badge">🍜 Noodles</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Chowmein</h3>
+            <p class="menu-item-desc">Stir-fried noodles with tender chicken and fresh vegetables</p>
+            <div class="menu-price-single"><span class="price-tag large">৳120</span></div>
+          </div>
+        </div>
+
+        <!-- SNACKS -->
+        <div class="menu-card" data-category="snacks" id="item-chicken-shawarma">
+          <div class="menu-card-img shawarma">
+            <img src="Img/shawarma.png" alt="Chicken Shawarma" loading="lazy" />
+            <div class="menu-card-badge">🌯 Wrap</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Shawarma</h3>
+            <p class="menu-item-desc">Tender grilled chicken wrapped with fresh vegetables and special sauce</p>
+            <div class="menu-price-single"><span class="price-tag large">৳100</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="snacks" id="item-french-fries">
+          <div class="menu-card-img fries"><div class="img-placeholder-icon">🍟</div><div class="menu-card-badge">🍟 Crispy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">French Fries</h3>
+            <p class="menu-item-desc">Crispy golden fries — the perfect side dish</p>
+            <div class="menu-price-single"><span class="price-tag large">৳90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="snacks" id="item-sub-sandwich">
+          <div class="menu-card-img sandwich"><div class="img-placeholder-icon">🥪</div><div class="menu-card-badge">🥪 Sub</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Sub Sandwich</h3>
+            <p class="menu-item-desc">Freshly made sub sandwich with chicken and vegetables</p>
+            <div class="menu-price-single"><span class="price-tag large">৳120</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="snacks" id="item-sub-sandwich-cheese">
+          <div class="menu-card-img sandwich-cheese"><div class="img-placeholder-icon">🧀</div><div class="menu-card-badge">🧀 Cheese</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Sub Sandwich with Cheese</h3>
+            <p class="menu-item-desc">Delicious sub sandwich loaded with melted cheese</p>
+            <div class="menu-price-single"><span class="price-tag large">৳140</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="snacks" id="item-chicken-meatbox">
+          <div class="menu-card-img meatbox"><div class="img-placeholder-icon">📦</div><div class="menu-card-badge premium">⭐ Special</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Meatbox</h3>
+            <p class="menu-item-desc">Special chicken meatbox — a unique Hungry Eyes experience</p>
+            <div class="menu-price-single"><span class="price-tag large">৳120</span></div>
+          </div>
+        </div>
+
+        <!-- SET MENU -->
+        <div class="menu-card" data-category="setmenu" id="item-set-menu-platter-01">
+          <div class="menu-card-img set-menu-1"><div class="img-placeholder-icon">🍱</div><div class="menu-card-badge">Platter 01</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Set Menu – Platter 01</h3>
+            <p class="menu-item-desc">Vegetable Fried Rice, Fried Chicken, Chinese Vegetable</p>
+            <div class="set-menu-addons"><small>Add On: Extra Rice +৳70 · Extra Vegetable +৳30 · Parcel +৳50</small></div>
+            <div class="menu-price-single"><span class="price-tag large">৳180</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="setmenu" id="item-set-menu-platter-02">
+          <div class="menu-card-img set-menu-2"><div class="img-placeholder-icon">🍱</div><div class="menu-card-badge premium">Best Value</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Set Menu – Platter 02</h3>
+            <p class="menu-item-desc">Vegetable Fried Rice, BBQ Chicken, Chinese Vegetable</p>
+            <div class="set-menu-addons"><small>Add On: Extra Rice +৳70 · Extra Vegetable +৳30 · Parcel +৳50</small></div>
+            <div class="menu-price-single"><span class="price-tag large">৳200</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="setmenu" id="item-set-menu-platter-03">
+          <div class="menu-card-img set-menu-3"><div class="img-placeholder-icon">🌶️</div><div class="menu-card-badge spicy">Spicy</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Set Menu – Platter 03</h3>
+            <p class="menu-item-desc">Vegetable Fried Rice, Chilli Chicken, Chinese Vegetable</p>
+            <div class="set-menu-addons"><small>Add On: Extra Rice +৳70 · Extra Vegetable +৳30 · Parcel +৳50</small></div>
+            <div class="menu-price-single"><span class="price-tag large">৳200</span></div>
+          </div>
+        </div>
+
+        <!-- SOUP -->
+        <div class="menu-card" data-category="soup" id="item-chicken-thai-soup">
+          <div class="menu-card-img soup-thai">
+            <img src="Img/soup.png" alt="Chicken Thai Soup" loading="lazy" />
+            <div class="menu-card-badge">🍲 Soup</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Thai Soup</h3>
+            <p class="menu-item-desc">Aromatic Thai-style chicken soup with fresh herbs and spices</p>
+            <div class="menu-price-single"><span class="price-tag large">৳90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-category="soup" id="item-chicken-corn-soup">
+          <div class="menu-card-img corn-soup"><div class="img-placeholder-icon">🌽</div><div class="menu-card-badge">🍲 Soup</div></div>
+          <div class="menu-card-body">
+            <h3 class="menu-item-name">Chicken Corn Soup (1:2)</h3>
+            <p class="menu-item-desc">Creamy chicken and sweet corn soup — warm and comforting</p>
+            <div class="menu-price-single"><span class="price-tag large">৳170</span></div>
+          </div>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="menu-card" data-category="drinks" id="item-cold-coffee">
+          <div class="menu-card-img cold-coffee"><div class="img-placeholder-icon">☕</div><div class="menu-card-badge">Cold</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Cold Coffee</h3><p class="menu-item-desc">Refreshing iced cold coffee</p><div class="menu-price-single"><span class="price-tag large">৳60</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-hot-coffee">
+          <div class="menu-card-img hot-coffee"><div class="img-placeholder-icon">☕</div><div class="menu-card-badge">Hot</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Hot Coffee</h3><p class="menu-item-desc">Freshly brewed hot coffee</p><div class="menu-price-single"><span class="price-tag large">৳60</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-lassi">
+          <div class="menu-card-img lassi"><div class="img-placeholder-icon">🥛</div><div class="menu-card-badge">Dairy</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Lassi</h3><p class="menu-item-desc">Traditional chilled lassi drink</p><div class="menu-price-single"><span class="price-tag large">৳70</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-chocolate-milkshake">
+          <div class="menu-card-img choco-shake"><div class="img-placeholder-icon">🍫</div><div class="menu-card-badge premium">🍫 Choco</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Chocolate Milk Shake</h3><p class="menu-item-desc">Rich and creamy chocolate milkshake</p><div class="menu-price-single"><span class="price-tag large">৳80</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-vanilla-milkshake">
+          <div class="menu-card-img vanilla-shake"><div class="img-placeholder-icon">🍦</div><div class="menu-card-badge">Vanilla</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Vanilla Milk Shake</h3><p class="menu-item-desc">Smooth and creamy vanilla milkshake</p><div class="menu-price-single"><span class="price-tag large">৳80</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-strawberry-milkshake">
+          <div class="menu-card-img strawberry-shake"><div class="img-placeholder-icon">🍓</div><div class="menu-card-badge">Strawberry</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Strawberry Milk Shake</h3><p class="menu-item-desc">Fresh strawberry blended into a creamy milkshake</p><div class="menu-price-single"><span class="price-tag large">৳80</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-drinking-water-half">
+          <div class="menu-card-img water"><div class="img-placeholder-icon">💧</div><div class="menu-card-badge">Water</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Drinking Water (½ Liter)</h3><p class="menu-item-desc">Cold mineral drinking water — half liter bottle</p><div class="menu-price-single"><span class="price-tag large">৳20</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-drinking-water-full">
+          <div class="menu-card-img water-full"><div class="img-placeholder-icon">💧</div><div class="menu-card-badge">Water</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Drinking Water (1 Liter)</h3><p class="menu-item-desc">Cold mineral drinking water — one liter bottle</p><div class="menu-price-single"><span class="price-tag large">৳30</span></div></div>
+        </div>
+
+        <div class="menu-card" data-category="drinks" id="item-mojo">
+          <div class="menu-card-img mojo"><div class="img-placeholder-icon">🥤</div><div class="menu-card-badge">Fizzy</div></div>
+          <div class="menu-card-body"><h3 class="menu-item-name">Mojo (1 Glass)</h3><p class="menu-item-desc">Refreshing Mojo cold drink — one glass</p><div class="menu-price-single"><span class="price-tag large">৳20</span></div></div>
+        </div>
+
+      </div><!-- end menu-grid -->
+
+      <!-- Notes -->
+      <div class="menu-note">
+        <span>📦 Pizza parcel packaging charge: ৳20 · 🚫 Outside drinks not allowed · ☪️ 100% Halal Certified</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="Img/LOGO.jpg" alt="Hungry Eyes Logo" class="footer-logo" />
+            <p class="footer-tagline">Come Hungry &amp; Leave Happily</p>
+            <p class="footer-desc">Serving the best food in Mirpur, Dhaka since 2017. 100% Halal · Fresh Ingredients · Fast Delivery</p>
+            <a href="https://www.facebook.com/hungryeyes.bd" target="_blank" rel="noopener" class="footer-fb">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Follow on Facebook
+            </a>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="branches.html">Branches</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Our Menu</h4>
+            <ul>
+              <li><a href="menu.html">Pizza</a></li>
+              <li><a href="menu.html">Burgers</a></li>
+              <li><a href="menu.html">Fried Chicken</a></li>
+              <li><a href="menu.html">Shawarma</a></li>
+              <li><a href="menu.html">Set Menu</a></li>
+              <li><a href="menu.html">Drinks</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact-col">
+            <h4>Contact</h4>
+            <p>📞 <a href="tel:01912341230">019 1234 1230</a></p>
+            <p>📞 <a href="tel:01712341236">017 1234 1236</a></p>
+            <p>✉️ <a href="mailto:hungryeyes.bd@gmail.com">hungryeyes.bd@gmail.com</a></p>
+            <p>📍 Mirpur, Dhaka, Bangladesh</p>
+            <div class="footer-delivery">
+              <span>Also available on:</span>
+              <div class="footer-apps">
+                <span class="app-pill">🛵 Foodpanda</span>
+                <span class="app-pill">🛵 Pathao</span>
+                <span class="app-pill">🛵 Foodi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Hungry Eyes Food Corner™. All Rights Reserved. | Serving Mirpur since 2017</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:01912341230" class="float-call" aria-label="Call Now">
+    <span class="float-call-icon">📞</span>
+    <span class="float-call-text">Order Now</span>
+  </a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
